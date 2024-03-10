@@ -1,0 +1,92 @@
+    // const [isLoggedIn, setIsLoggedIn] = useState(false);
+    // const [username, setUsername] = useState("");
+    // const [password, setPassword] = useState("");
+    // const [error, setError] = useState("");
+
+    // // Function to retrieve users from local storage
+    // const getUsers = () => {
+    //     const users = localStorage.getItem("users");
+    //     return users ? JSON.parse(users) : [];
+    // };
+
+    // const handleLogin = () => {
+    //     const users = getUsers();
+    //     const foundUser = users.find(
+    //         (user) => user.username === username && user.password === password
+    //     );
+
+    //     if (foundUser) {
+    //         setIsLoggedIn(true);
+    //         setError("");
+    //     } else {
+    //         setError("Invalid username or password.");
+    //     }
+    // };
+
+    // const handleSignup = () => {
+    //     const users = getUsers();
+    //     const newUser = { username, password };
+    //     const existingUser = users.find((user) => user.username === username);
+
+    //     if (existingUser) {
+    //         setError("Username already exists.");
+    //         return;
+    //     }
+
+    //     users.push(newUser);
+    //     localStorage.setItem("users", JSON.stringify(users));
+
+    //     setUsername("");
+    //     setPassword("");
+    //     setError("");
+    // };
+
+    // const handleLogout = () => {
+    //     setIsLoggedIn(false);
+    // };
+
+    // const renderLoginForm = () => (
+    //     <div>
+    //         <h2>Login</h2>
+    //         <form onSubmit={handleLogin}>
+    //             <div>
+    //                 <label>Username:</label>
+    //                 <input
+    //                     type="text"
+    //                     value={username}
+    //                     onChange={(e) => setUsername(e.target.value)}
+    //                 />
+    //             </div>
+    //             <div>
+    //                 <label>Password:</label>
+    //                 <input
+    //                     type="password"
+    //                     value={password}
+    //                     onChange={(e) => setPassword(e.target.value)}
+    //                 />
+    //             </div>
+    //             <button type="submit">Login</button>
+    //         </form>
+    //         {error && <p className="error">{error}</p>}
+    //     </div>
+    // );
+
+    // const renderLogoutButton = () => (
+    //     <div>
+    //         <p>Welcome, {username}!</p>
+    //         <button onClick={handleLogout}>Logout</button>
+    //     </div>
+    // );
+
+
+
+    // // onChange={(e) => setUsername(e.target.value)}
+    // // onChange={(e) => setPassword(e.target.value)}
+  
+    //     // <div className="container">
+    //     //     {isLoggedIn ? renderLogoutButton() : renderLoginForm()}
+    //     //     {!isLoggedIn && (         
+    //     //             {/* <form onSubmit={handleSignup}> */}
+    //     //                 {/* <button type="submit">Signup</button> */}
+    //     //     )}
+    //     // </div>

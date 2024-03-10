@@ -1,0 +1,14 @@
+.watchlistDiv {
+    width: 100vw;
+    padding: 30px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    color: white;
+}
+
+.watchlistTitle {
+    font-size: x-large;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}

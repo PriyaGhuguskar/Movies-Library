@@ -1,0 +1,21 @@
+.right {
+    color: white;
+}
+
+.right .title {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    .right .title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+.overview .heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin: 20px 0px;
+}
