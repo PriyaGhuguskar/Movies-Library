@@ -93,7 +93,8 @@ const HomeScreen = () => {
                     <LazyLoadImage
                         alt=""
                         effect="blur"
-                        src='https://image.tmdb.org/t/p/w500//xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg'
+                        // src={bannerlogo}
+                        src='https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg'
                     />
                 </div>
                 <div className="opacity-layer"></div>
@@ -107,7 +108,12 @@ const HomeScreen = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
+
+            {/* <div className="contentWrapper">
+                <span className="carouselTitle">Sort</span>
+            </div> */}
             {/* Trending */}
             <div className='carouselSection'>
                 <div className="contentWrapper">
